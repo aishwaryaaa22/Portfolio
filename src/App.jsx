@@ -1,6 +1,6 @@
 import React from "react";
 import Navbar from "./Components/Navbar";
-import Hero from "./Cmponents/Hero";
+import Hero from "./Components/Hero";
 import Projects from "./Components/Projects";
 import Footer from "./Components/Footer";
 import Techstack from "./Components/Techstack";
