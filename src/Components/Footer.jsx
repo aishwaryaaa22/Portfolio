@@ -13,16 +13,21 @@ function Footer() {
           </p>
           <a
             href="mailto:hello@example.com"
-            className="text-2xl font-medium text-cyan-500 underline decoration-2 underline-offset-8 hover:text-cyan-300 transition-colors"
+            className="text-2xl font-medium text-green-500 underline decoration-2 underline-offset-8 hover:text-green-200 transition-colors"
           >
             aishwarya056789@gmail.com
           </a>
           <div className="flex justify-center gap-6 mt-12 text-slate-300">
-            <FaLinkedinIn className="hover:text-white cursor-pointer" />
-            <FaGithub className="hover:text-white cursor-pointer" />
-            <FaPhoneAlt className="hover:text-white cursor-pointer" />
-             <SiGmail className="hover:text-white cursor-pointer" />
-           
+            <a
+              href="https://www.linkedin.com/in/aishwarya-sharma-b6a992394"
+              target="_blank"
+            >
+              {" "}
+              <FaLinkedinIn className="hover:text-white cursor-pointer" />
+            </a>
+            <a href="https://github.com/aishwaryaaa22" target="_blank">
+              <FaGithub className="hover:text-white cursor-pointer" />
+            </a>
           </div>
           <p className="mt-20 text-xs text-slate-200">
             © 2026 Developed with ❤️ and React.

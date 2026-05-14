@@ -59,7 +59,7 @@ export default function Hero() {
                 data-aos-easing="linear"
                 data-aos-duration="1500">
         <h2 className="text-4xl md:text-6xl font-bold mb-4">
-          Hi, I'm <span className="text-indigo-400">Aishwarya sharma</span>
+          Hi, I'm <span className="text-green-200">Aishwarya sharma</span>
         </h2>
         <p className="text-lg md:text-xl mb-6">
           Web Developer | MERN Enthusiast | Web Designer
@@ -67,13 +67,13 @@ export default function Hero() {
         <div className="flex gap-6 ">
         <a
           href="#projects"
-          className="px-6 py-3 bg-indigo-400 hover:bg-indigo-500 rounded-2xl transition"
+          className="px-6 py-3 bg-green-200 text-green-900 hover:bg-green-500 hover:text-black rounded-2xl transition"
         >
           View My Work
         </a>
         <a
-          href="/pdf.pdf"
-          className="px-6 py-3 bg-indigo-400 hover:bg-indigo-500 rounded-2xl transition"
+          href="/RESUME.pdf"
+          className="px-6 py-3  bg-green-200 text-green-900 hover:bg-green-500 hover:text-black rounded-2xl transition"
         >
           Resume
         </a>

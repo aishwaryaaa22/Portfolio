@@ -76,7 +76,7 @@ const ServicesSection = () => {
           </h1>
           <a
             href="#contact"
-            className="px-4 py-3 flex gap-2 justify-center items-center bg-indigo-100 hover:bg-indigo-400 rounded-6xl transition text-black"
+            className="px-4 py-3 flex gap-2 justify-center items-center  bg-green-200 text-green-800 hover:bg-green-500 hover:text-black rounded-6xl transition "
           >
             Get in Touch
             <RiArrowRightUpLine className="group-hover:translate-x-0.5 group-hover:-translate-y-0.5 transition-transform" />

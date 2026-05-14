@@ -51,7 +51,7 @@ export default function Projects() {
           <div key={idx} className="bg-gray-900 p-6 rounded-lg shadow hover:shadow-indigo-600 transition">
             <h4 className="text-xl font-bold mb-2">{p.title}</h4>
             <p className="text-gray-400 mb-4">{p.desc}</p>
-            <a href={p.link} className="text-indigo-400 hover:underline">View Project →</a>
+            <a href={p.link} className="text-green-200 hover:underline">View Project →</a>
           </div>
         ))}
       </div>

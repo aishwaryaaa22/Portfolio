@@ -31,7 +31,7 @@ const Aboutt = () => {
             />
           </div>
           {/* Subtle floating tech tag */}
-          <div className="absolute -bottom-3 -right-3 bg-indigo-500 text-slate-950 text-[10px] font-bold px-3 py-1 rounded-full shadow-lg">
+          <div className="absolute -bottom-3 -right-3 bg-green-200 text-slate-950 text-[10px] font-bold px-3 py-1 rounded-full shadow-lg">
             MERN STACK
           </div>
         </div>
@@ -41,7 +41,7 @@ const Aboutt = () => {
           
 
           <h2 className="text-4xl md:text-5xl font-bold mb-4 text-white">
-            Engineering <span className="text-indigo-400">clean code</span> & sleek interfaces.
+            Engineering <span className="text-green-200">clean code</span> & sleek interfaces.
           </h2>
 
           <p className="text-slate-400 text-sm md:text-base leading-relaxed mb-6 max-w-2xl">
@@ -56,7 +56,7 @@ const Aboutt = () => {
               <span className="text-xs font-semibold text-slate-300">Full-Stack</span>
             </div>
             <div className="flex items-center gap-2 bg-slate-900/50 border border-slate-800 px-4 py-2 rounded-lg">
-             <FiCpu size={16} className="text-blue-400" />
+             <FiCpu size={16} className="text-green-400" />
               <span className="text-xs font-semibold text-slate-300">Software Architecture</span>
             </div>
           </div>
